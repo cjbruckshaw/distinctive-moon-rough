@@ -1,0 +1,77 @@
+h5 {
+  text-align:right;}
+
+h1 {
+  color: #C0C0C0
+
+}
+
+h4 {
+  color: #C0C0C0
+
+}
+
+
+#demoFont {
+font-family: Impact, Charcoal, sans-serif;
+font-size: 25px;
+letter-spacing: 1.8px;
+word-spacing: 0.8px;
+color: #C0C0C0;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+head {
+  text-align:right;}
+
+.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+ul {
+    list-style-type: none;
+}
+body {
+  background-image: url("moon3.jpg");
+  text-align:center;}
+
+hr {
+border-style: none;
+border-top-style:dotted;
+border-color: grey;
+border-width: 5px;
+width: 5%
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  }
+
+/* Links inside the navbar */
+.sidenav a {
+  float: left;
+  display: block;
+  color: #C0C0C0;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change background on mouse-over */
+.sidenav a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
