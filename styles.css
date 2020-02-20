@@ -1,31 +1,15 @@
 h5 {
-  text-align:right;}
+  text-align:center;}
 
 h1 {
-  color: #C0C0C0
-
-}
+  font-size:10vw;
+  text-align:center;
+  color: #C0C0C0}
 
 h4 {
-  color: #C0C0C0
+    text-align:center;
+  color: #C0C0C0}
 
-}
-.left, .right {
-  float: left;
-  width: 20%; /* The width is 20%, by default */
-}
-
-.main {
-  float: left;
-  width: 60%; /* The width is 60%, by default */
-}
-
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
 
 #demoFont {
 font-family: Impact, Charcoal, sans-serif;
@@ -52,8 +36,24 @@ ul {
 }
 body {
   background-image: url("moon3.jpg");
-  text-align:center;}
+  style="max-width:100%;height:auto;
+  text-align:right;}
+  .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
 
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
 hr {
 border-style: none;
 border-top-style:dotted;
