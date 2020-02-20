@@ -1,14 +1,15 @@
 h5 {
-  text-align:center;}
+  text-align:right;}
 
 h1 {
-  font-size:10vw;
-  text-align:center;
-  color: #C0C0C0}
+  color: #C0C0C0
+
+}
 
 h4 {
-    text-align:center;
-  color: #C0C0C0}
+  color: #C0C0C0
+
+}
 
 
 #demoFont {
@@ -36,8 +37,7 @@ ul {
 }
 body {
   background-image: url("moon3.jpg");
-  style="max-width:100%;height:auto;
-  text-align:right;}
+  text-align:center;}
   .left, .right {
     float: left;
     width: 20%; /* The width is 20%, by default */
